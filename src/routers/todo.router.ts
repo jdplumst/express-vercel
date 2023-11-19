@@ -6,7 +6,7 @@ import {
   getTodos,
   updateTodo
 } from "../controllers/todo.controllers";
-import { validate } from "~/middleware/zod.middleware";
+import { validate } from "../middleware/zod.middleware";
 import {
   deleteTodoBody,
   deleteTodoParams,

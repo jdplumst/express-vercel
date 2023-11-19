@@ -1,8 +1,8 @@
 import { eq } from "drizzle-orm";
 import { Request, Response } from "express";
 import z from "zod";
-import { db } from "~/db";
-import { todo } from "~/db/schema";
+import { db } from "../db";
+import { todo } from "../db/schema";
 import {
   deleteTodoBody,
   deleteTodoParams,
@@ -16,7 +16,7 @@ import {
   putTodoBody,
   putTodoParams,
   putTodoQuery
-} from "~/schemas/todo.schema";
+} from "../schemas/todo.schema";
 
 export const getTodos = async (req: Request, res: Response) => {
   try {

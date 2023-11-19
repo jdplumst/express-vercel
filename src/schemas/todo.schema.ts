@@ -1,6 +1,6 @@
 import { createInsertSchema } from "drizzle-zod";
 import z from "zod";
-import { todo } from "~/db/schema";
+import { todo } from "../db/schema";
 
 export const getTodoBody = z.object({});
 export const getTodoQuery = z.object({});
