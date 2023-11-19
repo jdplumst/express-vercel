@@ -20,7 +20,7 @@ import {
   putTodoBody,
   putTodoParams,
   putTodoQuery
-} from "~/schemas/todo.schema";
+} from "../schemas/todo.schema";
 
 export const todoRouter = express.Router();
 
