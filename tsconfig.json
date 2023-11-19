@@ -14,8 +14,8 @@
     "moduleDetection": "force",
 
     /* Modules */
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "baseUrl": ".",
     "paths": { "~/*": ["./src/*"] },
     "resolveJsonModule": true,
