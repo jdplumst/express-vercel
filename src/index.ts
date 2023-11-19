@@ -3,7 +3,7 @@ import "dotenv/config";
 import { env } from "./env";
 import { todoRouter } from "./routers/todo.router";
 
-const app: Application = express();
+export const app: Application = express();
 
 app.use(express.json());
 

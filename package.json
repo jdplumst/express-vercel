@@ -4,7 +4,8 @@
     "dev": "nodemon src/index.ts --ext ts",
     "lint": "eslint .",
     "db:push": "dotenv drizzle-kit push:pg",
-    "db:studio": "dotenv drizzle-kit push:pg"
+    "db:studio": "dotenv drizzle-kit push:pg",
+    "vercel-build": "echo hello"
   },
   "devDependencies": {
     "@types/cors": "^2.8.16",
