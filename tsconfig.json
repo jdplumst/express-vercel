@@ -40,6 +40,6 @@
     "skipLibCheck": true
   },
 
-  "include": ["**/*.ts", ".eslintrc.js"],
+  "include": ["**/*.ts", ".eslintrc.js", "./api/*.ts"],
   "exclude": ["node_modules"]
 }
